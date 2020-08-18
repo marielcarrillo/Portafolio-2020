@@ -8,9 +8,10 @@ $grey:#303231;
 .triangle-about{
   width: 0%;
   height: 0;
-  border-top: 768px solid $grey ;
-  border-left: 1024px solid transparent;
-  margin-right: 0px;  
+  border-top: 800px solid $grey ;
+  border-left: 1280px solid transparent;
+  margin-right: 0px; 
+  z-index: 1; 
 }
 .skill-view{
   display: flex;
@@ -24,16 +25,16 @@ $grey:#303231;
   width: 0px;
   height: 0px;
   border-top: 300px solid transparent;
-  border-left: 400px solid $grey;
-  border-bottom: 475px solid transparent;
+  border-left: 500px solid $grey;
+  border-bottom: 600px solid transparent;
   justify-content: flex-start;
 }
 .triangle-skills-right{
   width: 100%;
   height: 0;
-  border-top: 700px solid transparent;
-  border-right: 500px solid $grey;
-  border-bottom: 512px solid transparent;
+  border-top: 750px solid transparent;
+  border-right: 600px solid $grey;
+  border-bottom: 678px solid transparent;
   justify-content: flex-end;
   margin-top: 300px;
   margin-right: 0px;
@@ -41,20 +42,19 @@ $grey:#303231;
 .triangle-dev{
   width: 0px;
   height: 0px;
-  border-top: 450px solid transparent;
-  border-left: 400px solid $grey;
-  border-bottom: 475px solid transparent;
-  margin-top: 1100px;
+  border-top: 600px solid transparent;
+  border-left: 525px solid $grey;
+  border-bottom: 600px solid transparent;
+  margin-top: 1250px;
   margin-left: 0px;
   position: absolute;
 }
 .triangle-contact{
   width: 0;
   height: 0;
-  border-bottom: 500px solid $grey;
-  border-left: 500px solid transparent;
-  margin-top: 1550px;
-  margin-left: 524px;
-  justify-content: flex-end;
+  border-bottom: 700px solid $grey;
+  border-left: 700px solid transparent;
+  margin-top: 2000px;
+  margin-left: 45.5%;
   position: absolute;
 }
