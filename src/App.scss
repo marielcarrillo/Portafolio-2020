@@ -1,7 +1,6 @@
 $grey:#303231;
 
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
 }
@@ -11,7 +10,7 @@ $grey:#303231;
   border-top: 800px solid $grey ;
   border-left: 1280px solid transparent;
   margin-right: 0px; 
-  z-index: 1; 
+  z-index: 0; 
 }
 .skill-view{
   display: flex;
@@ -29,23 +28,23 @@ $grey:#303231;
   border-bottom: 600px solid transparent;
   justify-content: flex-start;
 }
-.triangle-skills-right{
+.triangle-dev{
   width: 100%;
   height: 0;
   border-top: 750px solid transparent;
-  border-right: 600px solid $grey;
+  border-right: 550px solid $grey;
   border-bottom: 678px solid transparent;
   justify-content: flex-end;
   margin-top: 300px;
   margin-right: 0px;
 }
-.triangle-dev{
+.triangle-design{
   width: 0px;
   height: 0px;
   border-top: 600px solid transparent;
-  border-left: 525px solid $grey;
-  border-bottom: 600px solid transparent;
-  margin-top: 1250px;
+  border-left: 475px solid $grey;
+  border-bottom: 450px solid transparent;
+  margin-top: 1350px;
   margin-left: 0px;
   position: absolute;
 }
@@ -53,8 +52,9 @@ $grey:#303231;
   width: 0;
   height: 0;
   border-bottom: 700px solid $grey;
-  border-left: 700px solid transparent;
+  border-left: 600px solid transparent;
   margin-top: 2000px;
-  margin-left: 45.5%;
+  margin-left: 53.1%;
   position: absolute;
 }
+

@@ -2,7 +2,7 @@ import React from 'react';
 import './About.scss'
 import name from '../../assets/name.png'
 
-const About = () => {
+const About = ()=> {
     return(
         <div>
             <img src={name} alt='Mariel' className='name-img'/>
