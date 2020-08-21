@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 .design{
     position: absolute;
     display: flex;
     flex-direction: row;
-    margin-top: 1800px;
-    margin-left: 150px;
+    margin-top: 1850px;
+    margin-left: 40px;
+    h1{
+        font-family: 'Alata', sans-serif;
+        color: white;
+        font-size: 60px;
+    }
 }
 .design-btn{
-    margin-left: 400px;
+    margin-left: 150px;
+}
+.back{
+    position: absolute;
+    margin-top: 2350px;
+    margin-left: 350px;
 }

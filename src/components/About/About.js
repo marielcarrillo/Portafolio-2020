@@ -4,7 +4,7 @@ import name from '../../assets/name.png'
 
 const About = ()=> {
     return(
-        <div>
+        <div id='about'>
             <img src={name} alt='Mariel' className='name-img'/>
         </div>
     )

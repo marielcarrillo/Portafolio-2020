@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 .skills{
     position: absolute;
     display: flex;
     flex-direction: row;
     margin-top: 250px;
-    p{
+    h1{
         margin-left: 200px;
+        font-family: 'Alata', sans-serif;
+        color: white;
+        font-size: 60px;
     }
 }
 .skills-btn{

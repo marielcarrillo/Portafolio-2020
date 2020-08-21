@@ -5,8 +5,10 @@ import './Contact.scss'
 const Contact = () =>{
     return(
         <div className='contact' id='contact'>
-            <p>Contacto</p>
-            <p>mariel.elizabeth.mc@gmail.com</p>
+            <div>
+                <h1>Contacto</h1>
+                <p>mariel.elizabeth.mc@gmail.com</p>
+            </div>
         </div>
     )
 }

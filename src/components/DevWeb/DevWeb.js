@@ -7,7 +7,7 @@ const DevWeb = () =>{
     return(
         <div className='devweb' id='devweb'>
             { status && (<Modal closeModal={() => setStatus(false)}> <p>The content of the modal</p></Modal>)}
-            <p>Desarrollo Web</p>
+            <h1>Desarrollo Web</h1>
             <div className='devweb-btn'>
                 <Button onClick={() => setStatus(true)}/>
                 <Button onClick={() => setStatus(true)}/>

@@ -9,7 +9,7 @@ const Skills = () =>{
         <div className='skills' id='skills'>
             <div>
             { status && (<Modal closeModal={() => setStatus(false)}> <p>The content of the modal</p></Modal>)}
-                <p>Skills</p>
+                <h1>Skills</h1>
             </div>
             <div className='skills-btn'>
                 <Button onClick={() => setStatus(true)}/>
