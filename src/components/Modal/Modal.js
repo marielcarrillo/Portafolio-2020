@@ -2,6 +2,7 @@ import React from 'react';
 import './Modal.css';
 import FontAwesome from 'react-fontawesome';
 
+
 const Modal = (props) => {
   const { closeModal } = props;
 
@@ -27,6 +28,7 @@ const Modal = (props) => {
       <div className="content">
         { closeicon() }
         {props.children}
+        
       </div>
     </div>
   );

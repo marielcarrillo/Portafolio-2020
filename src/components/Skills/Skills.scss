@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+$grey:#303231;
+
 .skills{
     position: absolute;
     display: flex;
     flex-direction: row;
     margin-top: 250px;
-    h1{
+    .main-titles{
         margin-left: 200px;
         font-family: 'Alata', sans-serif;
         color: white;
@@ -17,4 +19,23 @@
     display: flex;
     flex-direction: row;
     margin-left: 700px;
+}
+.skills-modal-container{
+    box-sizing: border-box;
+}
+.modal-titles{
+    color: $grey;
+    font-size: 36pt;
+    margin: 1rem;
+}
+.skills-img-container{
+    padding: 3rem;
+}
+.skills-img{
+    width: 15%;
+    height: auto;
+    margin: 2rem;
+}
+.devSkills{
+    width: 700px;
 }

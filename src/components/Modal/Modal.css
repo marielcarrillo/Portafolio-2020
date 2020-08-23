@@ -15,10 +15,11 @@
   }
   
   .content {
-        margin: 15% auto;
+        margin: 10% auto;
         background-color: white;
         border-radius: 0.25rem;
-        width: 50vw;
+        width: 70vw;
         padding: 2rem;
         position: relative;
+        box-sizing: border-box;
   }

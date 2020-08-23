@@ -12,7 +12,7 @@ const Design = () =>{
         <>
         <div className='design' id='design'>
             { status && (<Modal closeModal={() => setStatus(false)}> <p>The content of the modal</p></Modal>)}
-            <h1>Diseño Gráfico</h1>
+            <h1 className='main-titles'>Diseño Gráfico</h1>
             <div className='design-btn'>
                 <Button onClick={() => setStatus(true)}/>
                 <Button onClick={() => setStatus(true)}/>
