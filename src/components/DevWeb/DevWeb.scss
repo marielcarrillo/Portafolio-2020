@@ -4,11 +4,16 @@
     display: flex;
     flex-direction: row-reverse;
     margin-top: 980px;
-    h1{
-        margin-left: 100px;
+    .main-titles{
+        margin-left: 300px;
         margin-top: 50px;
         font-family: 'Alata', sans-serif;
         color: white;
         font-size: 60px;
     }
+}
+#cipher-img{
+    width: 700px;
+    height: auto;
+    
 }

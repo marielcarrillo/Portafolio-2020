@@ -6,9 +6,15 @@
     margin-left: 1000px;
     display: flex;
     flex-direction: row;
-    h1{
+    .main-titles{
         font-family: 'Alata', sans-serif;
         color: white;
         font-size: 60px;
     }
+    a{
+        color: white;  
+    }
+}
+.contact-txt{
+    color: white;
 }

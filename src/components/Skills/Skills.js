@@ -14,8 +14,8 @@ const Skills = () =>{
                 <h1 className='main-titles'>Skills</h1>
             </div>
             <div className='skills-btn'>
-                <Button onClick={() => {setStatus(true); setModal('devSkills')}}/>
-                <Button onClick={() => {setStatus(true); setModal('desingSkills')}}/>
+                <Button value='Desarrollo Web' onClick={() => {setStatus(true); setModal('devSkills')}}/>
+                <Button value='Diseño Gráfico' onClick={() => {setStatus(true); setModal('desingSkills')}}/>
             </div>
         </div>
     )
